@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "target": "es6",
+        "sourceMap": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "lib": ["es2018", "dom"],
+        "typeRoots": ["node_modules/@types"]
+    }
+}
