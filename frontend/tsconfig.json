@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "sourceMap": true,
+        "importHelpers": true,
+        "module": "es2020",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "lib": ["es2018", "dom"],
+        "typeRoots": ["node_modules/@types"],
+        "types": []
+    },
+    "files": ["src/main.ts"]
+}

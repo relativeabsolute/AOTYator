@@ -1,14 +1,10 @@
 {
     "name": "aotyator",
     "version": "0.1.0",
-    "description": "stats grabber for albums",
+    "description": "spotify utils",
     "main": "dist/index.js",
     "scripts": {
-        "start": "npm run build && node ./dist/index.js",
-        "build": "tsc",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "clean": "rimaraf ./dist",
-        "lint": "tslint src/**/*.ts"
+        "setup-deps": "concurrently \"cd ./frontend && npm i\" \"cd ./api && npm i\""
     },
     "repository": {
         "type": "git",
@@ -21,13 +17,6 @@
     },
     "homepage": "https://github.com/relativeabsolute/AOTYator#readme",
     "dependencies": {
-        "bent": "^7.3.12",
-        "typescript": "^4.1.3"
-    },
-    "devDependencies": {
-        "@types/bent": "^7.3.2",
-        "@types/node": "^14.14.14",
-        "rimraf": "^3.0.2",
-        "tslint": "^6.1.3"
+        "concurrently": "^5.3.0"
     }
 }
