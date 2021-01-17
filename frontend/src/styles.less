@@ -1,0 +1,91 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    margin: 0;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github-logo,
+.twitter-logo {
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-link-text {
+        display: none;
+    }
+
+    .github-logo {
+        width: 60%;
+    }
+
+    .twitter-logo {
+        width: 2.5em;
+    }
+}
+@media only screen and (min-width: 601px) {
+    .github-logo {
+        width: 30%;
+    }
+
+    .twitter-logo {
+        width: 2.5em;
+    }
+}
+
+.mat-button {
+    width: auto;
+}
+
+.card svg.material-icons path {
+    fill: #888;
+}
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+.center-container {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mat-display-2 {
+    margin-top: 0.25em !important;
+    margin-bottom: 0.25em !important;
+}
+
+.mr-2 {
+    margin-right: 0.25em;
+}

@@ -4,7 +4,9 @@
     "description": "spotify utils",
     "main": "dist/index.js",
     "scripts": {
-        "setup-deps": "concurrently \"cd ./frontend && npm i\" \"cd ./api && npm i\""
+        "setup-deps": "concurrently \"cd ./frontend && npm i\" \"cd ./api && npm i\"",
+        "build": "cd ./api && npm run build",
+        "start": "cd ./api && npm run start"
     },
     "repository": {
         "type": "git",
